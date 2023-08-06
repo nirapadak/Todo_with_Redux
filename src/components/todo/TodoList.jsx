@@ -15,6 +15,7 @@ const TodoList = () => {
                     <table className="table">
                         <thead>
                         <tr>
+                            <th>Check</th>
                             <th>No</th>
                             <th>Task name</th>
                             <th>Edite</th>
@@ -26,6 +27,7 @@ const TodoList = () => {
                             todoItem.map((item,i)=>{
                                 return(
                                     <tr key={i.toString()}>
+                                        <th><a className="btn-check"></a></th>
                                     <td>{i}</td>
                                     <td>{item}</td>
                                     <td><button onClick={()=>{todoEditAlert(i,item)}} className="btn btn-success">Edit</button></td>

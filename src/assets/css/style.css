@@ -1,3 +1,10 @@
 body{
     background: #dadee2;
 }
+*{
+    font-family: Poppins;
+    font-weight: 900;
+}
+html{
+    font-size: 15px;
+}

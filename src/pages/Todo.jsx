@@ -9,7 +9,7 @@ const Todo = () => {
                 <div className="col-12">
                     <div className="card">
                         <div className="card-header">
-                            <h1 className="text-center font-monospace">TO-Do Application</h1>
+                            <h1 className="text-center fw-bold p-3">TO-Do Application</h1>
                         </div>
                         <div className="card-body">
                             <TodoComponent/>

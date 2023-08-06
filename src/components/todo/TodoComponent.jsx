@@ -11,7 +11,7 @@ const TodoComponent = () => {
 
 
     return (
-        <div className="container">
+        <div className="container-fluid">
             <div className="row">
                 <div className="col-10">
                     <input ref={myTask} className="form-control" placeholder="Enter Task Name"/>
